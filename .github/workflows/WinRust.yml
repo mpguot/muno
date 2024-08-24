@@ -1,4 +1,4 @@
-name: Windows - RustDesk
+name: WinRust
 
 on:
   workflow_dispatch:
@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/epizvgautguelftarbcn5/Downloads.bat?rlkey=b3yuit1kal3you236o38jaobz&st=p2eqs6lx&dl=0" -OutFile "Downloads.bat"
+          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/epizvgautguelftarbcn5/Downloads.bat?rlkey=b3yuit1kal3you236o38jaobz&st=ijipp0tw&dl=0" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
 
       - name: Log In To AnyDesk
